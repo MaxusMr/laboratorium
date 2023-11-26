@@ -1,13 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov  9 16:44:07 2023
 
-@author: maxmr
-"""
 
-def mnozenie(liczba1,liczba2):
-    return (liczba1*liczba2)
+def multiplication(number1, number2):
+    return number1*number2
 
-c=int(input("Wprowadź liczbę "))
-d=int(input("Wprowadź liczbę "))
-print(mnozenie(c,d))
+
+c = int(input("Give number "))
+d = int(input("Give second number "))
+print(multiplication(c, d))
