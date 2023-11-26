@@ -27,11 +27,10 @@ class Flat(Property):
         return f"Flat\n{super().__str__()}\nFloor: {self.floor}"
 
 
-# Tworzenie obiektów klasy House i Flat
-house = House(area=150, rooms=5, price=390000, address="123 Pocztowa", plot=500)
-flat = Flat(area=80, rooms=3, price=150000, address="456 Limanowa", floor=2)
+house = House(area=150, rooms=5, price=390000, address="123 Post", plot=500)
+flat = Flat(area=80, rooms=3, price=150000, address="456 Lim", floor=2)
 
-# Wyświetlanie obiektów
+
 print(house)
 print("\n------------------------\n")
 print(flat)

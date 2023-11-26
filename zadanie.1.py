@@ -16,5 +16,5 @@ student2 = Student("Anna Nowak", [23, 30, 20, 45, 13, 53, 43, 67])
 result1 = student1.is_passed()
 result2 = student2.is_passed()
 
-print(student1.name, "zdal/a", result1)
-print(student2.name, "zdal/a", result2)
+print(student1.name, "passed", result1)
+print(student2.name, "passed", result2)
