@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 16 15:11:45 2023
 
-@author: maxmr
-"""
 
 class Library:
     def __init__(self, city, street, zip_code, open_hours, phone):
